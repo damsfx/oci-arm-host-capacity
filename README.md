@@ -1,5 +1,7 @@
 # Resolving Oracle Cloud "Out of Capacity" issue and getting free VPS with 4 ARM cores / 24GB of memory
 
+## Cron Jon : ON
+
 <p align="center">
   <a href="https://github.com/hitrov/oci-arm-host-capacity/actions"><img src="https://github.com/hitrov/oci-arm-host-capacity/workflows/Tests/badge.svg" alt="Test"></a>
   <a href="https://discord.gg/fKZQQStjMN"><img src="https://img.shields.io/discord/893301913662148658?label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
@@ -18,30 +20,32 @@ is a bit outdated regarding [Configuration](#configuration) but still can be use
 
 If you appreciate what I did please consider supporting me on [Patreon](https://www.patreon.com/hitrov)
 
-- [Generating API key](#generating-api-key)
-- [Installation](#installation)
-- [Configuration](#configuration)
-  - [Create/copy .env file](#createcopy-env-file)
-  - [General](#general)
-  - [Private key](#private-key)
-  - [Instance parameters](#instance-parameters)
-    - [Mandatory](#mandatory)
-      - [OCI_SUBNET_ID and OCI_IMAGE_ID](#oci_subnet_id-and-oci_image_id)
-      - [OCI_SSH_PUBLIC_KEY (SSH access)](#oci_ssh_public_key-ssh-access)
-    - [Optional](#optional)
-- [Running the script](#running-the-script)
-- [Periodic job setup (cron)](#periodic-job-setup-cron)
-  - [Linux / WSL](#linux--wsl)
-  - [GitHub actions (workflows)](#github-actions-workflows)
-    - [Setup](#setup)
-    - [Read This Carefully](#read-this-carefully)
-- [How it works](#how-it-works)
-- [Assigning public IP address](#assigning-public-ip-address)
-- [Troubleshooting](#troubleshooting)
-  - [Private key issues](#private-key-issues)
-  - [SSH key issues](#ssh-key-issues)
-- [Multiple configuration support](#multiple-configuration-support)
-- [Conclusion](#conclusion)
+- [Resolving Oracle Cloud "Out of Capacity" issue and getting free VPS with 4 ARM cores / 24GB of memory](#resolving-oracle-cloud-out-of-capacity-issue-and-getting-free-vps-with-4-arm-cores--24gb-of-memory)
+  - [Cron Jon : ON](#cron-jon--on)
+  - [Generating API key](#generating-api-key)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+    - [Create/copy .env file](#createcopy-env-file)
+    - [General](#general)
+    - [Private key](#private-key)
+    - [Instance parameters](#instance-parameters)
+      - [Mandatory](#mandatory)
+        - [OCI\_SUBNET\_ID and OCI\_IMAGE\_ID](#oci_subnet_id-and-oci_image_id)
+        - [OCI\_SSH\_PUBLIC\_KEY (SSH access)](#oci_ssh_public_key-ssh-access)
+      - [Optional](#optional)
+  - [Running the script](#running-the-script)
+  - [Periodic job setup (cron)](#periodic-job-setup-cron)
+    - [Linux / WSL](#linux--wsl)
+    - [GitHub actions (workflows)](#github-actions-workflows)
+      - [Setup](#setup)
+      - [Read This Carefully](#read-this-carefully)
+  - [How it works](#how-it-works)
+  - [Assigning public IP address](#assigning-public-ip-address)
+  - [Troubleshooting](#troubleshooting)
+    - [Private key issues](#private-key-issues)
+    - [SSH key issues](#ssh-key-issues)
+  - [Multiple configuration support](#multiple-configuration-support)
+  - [Conclusion](#conclusion)
 
 ## Generating API key
 
