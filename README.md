@@ -1,7 +1,5 @@
 # Resolving Oracle Cloud "Out of Capacity" issue and getting free VPS with 4 ARM cores / 24GB of memory
 
-## Cron Jon : ON
-
 <p align="center">
   <a href="https://github.com/hitrov/oci-arm-host-capacity/actions"><img src="https://github.com/hitrov/oci-arm-host-capacity/workflows/Tests/badge.svg" alt="Test"></a>
   <a href="https://discord.gg/fKZQQStjMN"><img src="https://img.shields.io/discord/893301913662148658?label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
@@ -21,7 +19,6 @@ is a bit outdated regarding [Configuration](#configuration) but still can be use
 If you appreciate what I did please consider supporting me on [Patreon](https://www.patreon.com/hitrov)
 
 - [Resolving Oracle Cloud "Out of Capacity" issue and getting free VPS with 4 ARM cores / 24GB of memory](#resolving-oracle-cloud-out-of-capacity-issue-and-getting-free-vps-with-4-arm-cores--24gb-of-memory)
-  - [Cron Jon : ON](#cron-jon--on)
   - [Generating API key](#generating-api-key)
   - [Installation](#installation)
   - [Configuration](#configuration)
